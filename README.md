@@ -114,7 +114,7 @@ Here are the download links of the required datasets:
 
 
 | Task | Dataset  | Config | Acc. | Checkpoints Download |
-| :-- | :-- | :-- | :-- | :-- |
+| :-: | :-: | :-: | :-: | :-: |
 | Pre-training | ShapeNet | N.A. | N.A. |  [Point-MAE](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/pretrain_pointmae_ckpt-last.pth)|
 | Classification | ScanObjectNN | [finetune_scan_objbg_mantis.yaml](./cfgs/finetune_scan_objbg_mantis.yaml) | 93.29% |  [OBJ_BG](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_scan_objbg.pth)|
 | Classification | ScanObjectNN  | [finetune_scan_objonly_mantis.yaml](./cfgs/finetune_scan_objonly_mantis.yaml) | 92.77% |[OBJ_ONLY](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_scan_objonly.pth)| 
