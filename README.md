@@ -115,12 +115,12 @@ Here are the download links of the required datasets:
 
 | Task | Dataset  | Config | Acc. | Checkpoints Download |
 | :-- | :-- | :-- | :-- | :-- |
-| Pre-training | ShapeNet | N.A. | N.A. | (coming soon) |
-| Classification | ScanObjectNN | [finetune_scan_objbg_mantis.yaml](./cfgs/finetune_scan_objbg_mantis.yaml) | 93.29% | (coming soon) |
-| Classification | ScanObjectNN  | [finetune_scan_objonly_mantis.yaml](./cfgs/finetune_scan_objonly_mantis.yaml) | 92.77% |(coming soon) | 
-| Classification | ScanObjectNN  | [finetune_scan_hardest_mantis.yaml](./cfgs/finetune_scan_hardest_mantis.yaml) | 93.48% |(coming soon) | 
-| Classification | ModelNet40  | [finetune_modelnet_mantis.yaml](./cfgs/finetune_modelnet_mantis.yaml) | 94.70% | (coming soon) | 
-| Part segmentation | ShapeNetPart  | [partseg_mantis.yaml](./cfgs/partseg_mantis.yaml) | 86.10% mIoU | (coming soon) | 
+| Pre-training | ShapeNet | N.A. | N.A. |  [Point-MAE](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/pretrain_pointmae_ckpt-last.pth)|
+| Classification | ScanObjectNN | [finetune_scan_objbg_mantis.yaml](./cfgs/finetune_scan_objbg_mantis.yaml) | 93.29% |  [OBJ_BG](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_scan_objbg.pth)|
+| Classification | ScanObjectNN  | [finetune_scan_objonly_mantis.yaml](./cfgs/finetune_scan_objonly_mantis.yaml) | 92.77% |[OBJ_ONLY](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_scan_objonly.pth)| 
+| Classification | ScanObjectNN  | [finetune_scan_hardest_mantis.yaml](./cfgs/finetune_scan_hardest_mantis.yaml) | 93.48% |[PB_T50_RS](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_scan_hardest.pth)| 
+| Classification | ModelNet40  | [finetune_modelnet_mantis.yaml](./cfgs/finetune_modelnet_mantis.yaml) | 94.70% |[ModelNet40](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_modelnet.pth)| 
+| Part segmentation | ShapeNetPart  | [partseg_mantis.yaml](./cfgs/partseg_mantis.yaml) | 86.10% mIoU |[Part_Seg](https://github.com/gzhhhhhhh/Mantis/releases/download/v1.0/mantis_part_seg.pth)| 
 
 The evaluation commands with checkpoints should be in the following format:
 
