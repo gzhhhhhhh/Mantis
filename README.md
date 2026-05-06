@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2605.03438"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/Code%20License-Apache--2.0-green.svg" alt="Code License"></a>
 </p>
 
@@ -171,9 +171,18 @@ You may also define custom configurations for other visualization settings.
 
 This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)), Vision Mamba ([paper](https://arxiv.org/abs/2401.09417), [code](https://github.com/hustvl/Vim)), Point-MAE ([paper](https://arxiv.org/abs/2203.06604), [code](https://github.com/Pang-Yatian/Point-MAE)), and Mamba3D ([paper](https://arxiv.org/abs/2404.14966), [code](https://github.com/xhanxu/Mamba3D)). Thanks for their efforts.
 
-<!-- 
+
 ## Citation
 
 If you find this repository useful in your research, please consider giving a star ⭐ and a citation.
 
 ```
+@misc{guo2026mantismambanativetuningefficient,
+      title={Mantis: Mamba-native Tuning is Efficient for 3D Point Cloud Foundation Models}, 
+      author={Zihao Guo and Jihua Zhu and Jian Liu and Ajmal Saeed Mian},
+      year={2026},
+      eprint={2605.03438},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.03438}, 
+}
